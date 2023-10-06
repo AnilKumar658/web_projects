@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin:auto;
+    padding: auto;
+    text-decoration: none;
+}
+a{
+    display: inline-block;
+    margin: 10px;
+}
+/*************  Top Page **********************************/
+#top{
+    background-image: url("realistic-polygonal-background_23-2148925233.webp");
+}
+#top_text{
+    transform: translateY(-33px);
+}
+#logo{
+    color:black;
+}
+/*********************Left Html ************************/
+#left_img{
+    background-image: url("realistic-polygonal-background_23-2148925233.webp");
+}
+.subject{
+    transform: translateY(100px);
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(74, 48, 38);
+}
+.subject:hover{
+    color:white;
+}
+
+/*******************Right Html***************************/
+#lib{
+    transform: translateX(290px);
+    border-radius: 5px;
+}
+#right_img{
+    background-image: url("realistic-polygonal-background_23-2148925233.webp");
+}
+/************************Login Html **************************/
+#login_img{
+    transform: translateX(-245px);
+}
+#form{
+    float:right;
+    transform: translate(-200px,-200px);
+}
+#text_login{
+    transform: translate(10px,-200px);
+    margin:10px;
+}
+#pa1{
+    transform: translateY(70px);
+}
+#input_text{
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 18px;
+}
+#login_html{
+    overflow: hidden;
+}
